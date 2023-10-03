@@ -1096,3 +1096,30 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+/*--------------------------------------------------------------
+# PDF DOWNLOAD BUTTON
+--------------------------------------------------------------*/
+button {
+	width: 350px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	color: #2c2f3f;
+	background: white;
+	border: 2px solid #2c2f3f;
+	box-shadow: 5px 5px 0 #2c2f3f,
+		-5px -5px 0 #2c2f3f,
+		-5px 5px 0 #2c2f3f,
+		5px -5px 0 #2c2f3f;
+	transition: 500ms ease-in-out;
+}
+
+button:hover {
+	box-shadow: 20px 5px 0 #2eafec, -20px -5px 0 #2c2f3f;
+}
+
+button:focus {
+	outline: none;
+}
